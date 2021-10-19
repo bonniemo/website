@@ -1,0 +1,35 @@
+$myFont:'Mulish', sans-serif;
+$myFont-color: #4A4FF2;
+$myFontSize-biggest: 40px;
+$myFontSize-bigger: 28px;
+$myFontSize-big: 22px;
+$myFontSize-small: 18px;
+$myFontSize-smaller: 16px;
+
+
+@mixin font-big {
+    font-size: $myFontSize-big;
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+@mixin font-biggest {
+    font-size: $myFontSize-biggest;
+    font-weight: 700;
+    line-height: 55px;
+}
+@mixin font-small {
+    font-weight: 400;
+    font-size: $myFontSize-small;
+    line-height: 22,59px;
+}
+@mixin font-bigger {
+    font-weight: 700;
+    font-size: $myFontSize-bigger;
+    line-height: 38px;
+}
+@mixin font-smaller {
+    font-weight: 400;
+    font-size: $myFontSize-smaller;
+    line-height: 26px;
+}

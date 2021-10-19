@@ -1,0 +1,57 @@
+@import "fonts";
+@import "header";
+@import "_footer";
+body {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 3rem 3rem; 
+}
+.header {
+  padding-bottom: 3rem;
+}
+.section__fresh-title {
+    max-width: 1120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+.title__head {
+    max-width: 495px;
+    width: 100%;
+    @include font-biggest;
+}
+.title__paragraph {
+    max-width: 635px;
+    width: 100%;
+}
+.title__list {
+    max-width: 335px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: flex-end;
+}
+.img {
+    max-width: 1110px;
+    width: 100%;
+    padding: 3rem 3rem; 
+
+}
+.img-text {
+    max-width: 1110px;
+    width: 100%;
+    @include font-smaller;
+    padding: 3rem 3rem;
+}
+.images-container {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.images-bottom {
+    flex-basis: 30%;
+}
